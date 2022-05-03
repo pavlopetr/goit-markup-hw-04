@@ -48,6 +48,7 @@ ul {
     
 }
 .logo {
+    margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
 
@@ -88,7 +89,6 @@ ul {
     align-items: center;
 }
 .linc{
-   
     margin-top: 32px;
 }
 .site-nav-linc{
@@ -177,9 +177,10 @@ fill: var(--accent-color);
     
 }
 
+.section{
+    padding-bottom: 50px
+}
 .section-title {
-    width: 376px;
-    height: 42px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -202,6 +203,12 @@ fill: var(--accent-color);
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.icon-qualitis{
+    padding: 25px 102px;
+    background-color: #F5F4FA;
+    max-width: 270px;
+}
+
 .title {
     margin-bottom: 10px;
 
@@ -235,7 +242,6 @@ fill: var(--accent-color);
     line-height: 1.18;
 }
 .profession {
-    margin-bottom: 30px;
     font-size: 16px;
     line-height: 1.18;
 }
@@ -253,7 +259,7 @@ fill: var(--accent-color);
     margin-right: auto;
     display: block;
     border-radius: 4px;
-
+    padding: 10px 32px;
 
     color: var(--hero-title-color);
     background-color: var(--accent-color);
@@ -315,7 +321,6 @@ footer {
     display: block;
 }
 .contact-num{
-    padding-bottom: 60px;
     display: block;
 }
 
@@ -341,10 +346,10 @@ address {
 /* portfolio */
 .card-text{
     padding: 20px 24px;
-    outline: solid #ECECEC;
+    border: 1px solid #ECECEC;
 }
 .title-portfolio {
-    margin-top: 20px;
+    margin-bottom: 4px;
    
     
     color: var(--primary-text-color);
@@ -355,8 +360,7 @@ address {
     letter-spacing: 0.06em;
 }
 .title-work{
-    margin-left: 24px;
-    margin-bottom: 20px;
+   
 }
 .p {
     font-size: 16px;
@@ -387,7 +391,7 @@ a {
     margin-right: 30px;
 }
 .img-work{
-    margin-bottom: 94px;
+    
 }
 
 .section-team{
@@ -435,6 +439,7 @@ padding-bottom: 30px;
 }
 .section-filters{
     padding-top: 100px;
+    padding-bottom: 94px;
 }
 .ftr-content{
     flex-basis: calc((100% - 90px) / 3);
