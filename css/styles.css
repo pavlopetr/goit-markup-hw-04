@@ -590,6 +590,7 @@ background-color: #ffffff;
     justify-content:center;
     align-items: center;
     border-radius: 50% 50%;
+    
 }
 .icons-footer{
     fill: var(--hero-title-color);
