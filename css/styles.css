@@ -232,6 +232,10 @@ fill: var(--accent-color);
 .description:last-child{
     margin-right: 0 px;
 }
+
+.comand-teem{
+    display: block;
+}
 .comand-name {
     margin-bottom: 10px;
 
@@ -311,7 +315,7 @@ footer {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
 }
 
 .icons-footer{
@@ -405,9 +409,7 @@ a {
 .images >li:not(:last-child){
     margin-right: 30px;
 }
-.img-work{
-    
-}
+
 .soc-list{
     display: flex;
     justify-self: auto;
@@ -474,7 +476,7 @@ background-color: #ffffff;
 }
 .footer-content{
     display: block;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 .footer{
     padding-top: 60px;
@@ -522,14 +524,18 @@ background-color: #ffffff;
     border-radius: 2px;
     align-items: center;
     justify-content: center;
+    fill: #AFB1B8;
 }
 .group{
-    fill: #AFB1B8;
     width: 106px;
     height: 60px;
 }
-.group-item{
 
+
+.group-link:hover,
+.group-link:focus{
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 .group-item:not(:last-child){
@@ -540,10 +546,7 @@ background-color: #ffffff;
     padding-top: 95px;
     padding-bottom: 94px;
 }
-.group:hover,
-.group:focus{
-    fill: var(--accent-color);
-}
+
 
 
 .container-futer{
@@ -562,7 +565,8 @@ background-color: #ffffff;
 }
 .footer-icons{
     text-align: center;
-    margin-bottom: 100px
+    margin-bottom: 100px;
+   
 }
 .ftr-cont{
     padding-bottom: 60px;
@@ -590,7 +594,7 @@ background-color: #ffffff;
     justify-content:center;
     align-items: center;
     border-radius: 50% 50%;
-    
+    background-color:rgba(255, 255, 255, 0.1);
 }
 .icons-footer{
     fill: var(--hero-title-color);
